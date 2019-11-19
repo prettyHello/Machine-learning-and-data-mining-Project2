@@ -9,7 +9,7 @@ from scipy.spatial import distance
 from pickle import load
 
 
-def load_HDR_data():
+def load_HDR_data(file_name):
     """Load the data for the HDR dataset.
     
     Returns
@@ -19,7 +19,7 @@ def load_HDR_data():
                 
     """
     
-    fd = open('hdr_data.dat', 'rb')
+    fd = open(file_name, 'rb')
 
     hdr_data = load(fd)
     fd.close()
