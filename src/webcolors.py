@@ -315,24 +315,29 @@ CSS3_HEX_TO_NAMES[u'#708090'] = u'slategray'
 
 # Normalization functions.
 #################################################################
-def closest_colour(requested_colour):
-    min_colours = {}
-    for key, name in webcolors.css3_hex_to_names.items():
-        r_c, g_c, b_c = webcolors.hex_to_rgb(key)
-        rd = (r_c - requested_colour[0]) ** 2
-        gd = (g_c - requested_colour[1]) ** 2
-        bd = (b_c - requested_colour[2]) ** 2
-        min_colours[(rd + gd + bd)] = name
-    return min_colours[min(min_colours.keys())]
 
-
-def get_colour_name(requested_colour):
-    try:
-        closest_name = actual_name = webcolors.rgb_to_name(requested_colour)
-    except ValueError:
-        closest_name = closest_colour(requested_colour)
-        actual_name = None
-    return actual_name, closest_name
+#___fonction 'closest_colour' et 'get_colour_name' pour aproximer les couleurs pas defini #
+                                                                                          #  
+def closest_colour(requested_colour):                                                     #
+    min_colours = {}                                                                      #  
+    for key, name in webcolors.css3_hex_to_names.items():                                 #  
+        r_c, g_c, b_c = webcolors.hex_to_rgb(key)                                         #  
+        rd = (r_c - requested_colour[0]) ** 2                                             #  
+        gd = (g_c - requested_colour[1]) ** 2                                             #  
+        bd = (b_c - requested_colour[2]) ** 2                                             #  
+        min_colours[(rd + gd + bd)] = name                                                # 
+    return min_colours[min(min_colours.keys())]                                           #  
+                                                                                          #  
+                                                                                          #  
+def get_colour_name(requested_colour):                                                    #  
+    try:                                                                                  #  
+        closest_name = actual_name = webcolors.rgb_to_name(requested_colour)              #  
+    except ValueError:                                                                    #  
+        closest_name = closest_colour(requested_colour)                                   #  
+        actual_name = None                                                                #  
+    return actual_name, closest_name                                                      #  
+                                                                                          #
+###########################################################################################   
 
 def normalize_hex(hex_value):
     """
