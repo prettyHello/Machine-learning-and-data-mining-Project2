@@ -1,0 +1,14 @@
+        Repartition des pays dans 4 cluster 
+
++-------------------------------------------------------------------------------------------------------------+
+|Cluster_ID |couleur    | Taille | Nom Centroide           | liste Pays                                       |
++-------------------------------------------------------------------------------------------------------------+
+
+|       1   |       navy|    47  |                 Thailand|  ['Israel', 'Greece', 'Singapore', 'Korea, Rep. of', 'Slovenia', 'Cyprus', 'Czech Republic', 'Malta', 'Hungary', 'Poland', 'Chile', 'Bahrain', 'Estonia', 'Lithuania', 'Slovakia', 'Croatia', 'Latvia', 'Costa Rica', 'Bulgaria', 'Trinidad and Tobago', 'Panama', 'Romania', 'Malaysia', 'Mauritius', 'Russian Federation', 'Macedonia, TFYR', 'Belarus', 'Albania', 'Thailand', 'Ukraine', 'Lebanon', 'Kazakhstan', 'Armenia', 'Jordan', 'Tunisia', 'Fiji', 'Dominican Republic', 'Belize', 'Georgia', 'Guyana', 'Jamaica', 'Kyrgyzstan', 'Moldova, Rep. of', 'Mongolia', 'Namibia', 'Botswana', 'Swaziland']|
++-------------------------------------------------------------------------------------------------------------+
+|       2   | dodgerblue|    40  |                   Guinea|  ['Venezuela, RB', 'Ecuador', 'Paraguay', 'Azerbaijan', 'Cape Verde', 'Viet Nam', 'Nicaragua', 'Bolivia', 'Honduras', 'Gabon', 'Cambodia', "Lao People's Dem.  Rep.", 'Ghana', 'Papua New Guinea', 'Uganda', 'Togo', 'Zimbabwe', 'Madagascar', 'Cameroon', 'Kenya', 'Gambia', 'Senegal', 'Rwanda', 'Nigeria', 'Guinea', 'Angola', 'Tanzania, U. Rep. of', 'Benin', "Cote d'Ivoire", 'Zambia', 'Malawi', 'Mozambique', 'Burundi', 'Ethiopia', 'Chad', 'Central African Republic', 'Burkina Faso', 'Mali', 'Sierra Leone', 'Niger']|
++-------------------------------------------------------------------------------------------------------------+
+|       3   | lightgreen|    22  |                  Austria|  ['Norway', 'Iceland', 'Australia', 'Ireland', 'Sweden', 'Canada', 'Japan', 'United States', 'Switzerland', 'Netherlands', 'Finland', 'Luxembourg', 'Belgium', 'Austria', 'Denmark', 'France', 'Italy', 'United Kingdom', 'Spain', 'New Zealand', 'Germany', 'Portugal']|
++-------------------------------------------------------------------------------------------------------------+
+|       4   | darkorange|    29  |                    Egypt|  ['Kuwait', 'Argentina', 'Uruguay', 'United Arab Emirates', 'Mexico', 'Oman', 'Brazil', 'Colombia', 'Saudi Arabia', 'China', 'Peru', 'Philippines', 'Turkey', 'Sri Lanka', 'Iran, Islamic Rep. of', 'El Salvador', 'Algeria', 'Syrian Arab Republic', 'Indonesia', 'Egypt', 'Guatemala', 'South Africa', 'Morocco', 'India', 'Pakistan', 'Bangladesh', 'Nepal', 'Sudan', 'Yemen']|
++-------------------------------------------------------------------------------------------------------------+

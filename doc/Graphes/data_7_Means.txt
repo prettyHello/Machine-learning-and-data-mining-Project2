@@ -1,0 +1,20 @@
+        Repartition des pays dans 7 cluster 
+
++-------------------------------------------------------------------------------------------------------------+
+|Cluster_ID |couleur    | Taille | Nom Centroide           | liste Pays                                       |
++-------------------------------------------------------------------------------------------------------------+
+
+|       1   |       navy|    18  |                 Honduras|  ['Argentina', 'Costa Rica', 'Panama', 'Venezuela, RB', 'Lebanon', 'Peru', 'Ecuador', 'Jordan', 'Tunisia', 'Paraguay', 'Dominican Republic', 'Belize', 'Azerbaijan', 'Cape Verde', 'Viet Nam', 'Nicaragua', 'Honduras', 'South Africa']|
++-------------------------------------------------------------------------------------------------------------+
+|       2   |       blue|    22  |                  Austria|  ['Norway', 'Iceland', 'Australia', 'Ireland', 'Sweden', 'Canada', 'Japan', 'United States', 'Switzerland', 'Netherlands', 'Finland', 'Luxembourg', 'Belgium', 'Austria', 'Denmark', 'France', 'Italy', 'United Kingdom', 'Spain', 'New Zealand', 'Germany', 'Portugal']|
++-------------------------------------------------------------------------------------------------------------+
+|       3   |deepskyblue|    32  |                    Kenya|  ['Bolivia', 'Gabon', 'Cambodia', "Lao People's Dem.  Rep.", 'Ghana', 'Papua New Guinea', 'Uganda', 'Togo', 'Zimbabwe', 'Madagascar', 'Cameroon', 'Kenya', 'Gambia', 'Senegal', 'Rwanda', 'Nigeria', 'Guinea', 'Angola', 'Tanzania, U. Rep. of', 'Benin', "Cote d'Ivoire", 'Zambia', 'Malawi', 'Mozambique', 'Burundi', 'Ethiopia', 'Chad', 'Central African Republic', 'Burkina Faso', 'Mali', 'Sierra Leone', 'Niger']|
++-------------------------------------------------------------------------------------------------------------+
+|       4   |  turquoise|    22  |          Macedonia, TFYR|  ['Slovenia', 'Czech Republic', 'Malta', 'Hungary', 'Poland', 'Estonia', 'Lithuania', 'Slovakia', 'Croatia', 'Latvia', 'Bulgaria', 'Romania', 'Russian Federation', 'Macedonia, TFYR', 'Belarus', 'Albania', 'Ukraine', 'Armenia', 'Georgia', 'Guyana', 'Jamaica', 'Moldova, Rep. of']|
++-------------------------------------------------------------------------------------------------------------+
+|       5   |greenyellow|    12  |             Saudi Arabia|  ['Kuwait', 'United Arab Emirates', 'Oman', 'Saudi Arabia', 'China', 'Iran, Islamic Rep. of', 'Algeria', 'Syrian Arab Republic', 'India', 'Pakistan', 'Sudan', 'Yemen']|
++-------------------------------------------------------------------------------------------------------------+
+|       6   |     orange|    18  |                Mauritius|  ['Israel', 'Greece', 'Singapore', 'Korea, Rep. of', 'Cyprus', 'Chile', 'Bahrain', 'Trinidad and Tobago', 'Malaysia', 'Mauritius', 'Thailand', 'Kazakhstan', 'Fiji', 'Kyrgyzstan', 'Mongolia', 'Namibia', 'Botswana', 'Swaziland']|
++-------------------------------------------------------------------------------------------------------------+
+|       7   |  orangered|    14  |                Indonesia|  ['Uruguay', 'Mexico', 'Brazil', 'Colombia', 'Philippines', 'Turkey', 'Sri Lanka', 'El Salvador', 'Indonesia', 'Egypt', 'Guatemala', 'Morocco', 'Bangladesh', 'Nepal']|
++-------------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,22 @@
+        Repartition des pays dans 8 cluster 
+
++-------------------------------------------------------------------------------------------------------------+
+|Cluster_ID |couleur    | Taille | Nom Centroide           | liste Pays                                       |
++-------------------------------------------------------------------------------------------------------------+
+
+|       1   |       navy|    22  |                  Austria|  ['Norway', 'Iceland', 'Australia', 'Ireland', 'Sweden', 'Canada', 'Japan', 'United States', 'Switzerland', 'Netherlands', 'Finland', 'Luxembourg', 'Belgium', 'Austria', 'Denmark', 'France', 'Italy', 'United Kingdom', 'Spain', 'New Zealand', 'Germany', 'Portugal']|
++-------------------------------------------------------------------------------------------------------------+
+|       2   |       blue|    30  |                    Niger|  ['Bolivia', 'Gabon', 'Cambodia', "Lao People's Dem.  Rep.", 'Ghana', 'Papua New Guinea', 'Uganda', 'Togo', 'Zimbabwe', 'Madagascar', 'Cameroon', 'Kenya', 'Senegal', 'Rwanda', 'Nigeria', 'Guinea', 'Tanzania, U. Rep. of', 'Benin', "Cote d'Ivoire", 'Zambia', 'Malawi', 'Mozambique', 'Burundi', 'Ethiopia', 'Chad', 'Central African Republic', 'Burkina Faso', 'Mali', 'Sierra Leone', 'Niger']|
++-------------------------------------------------------------------------------------------------------------+
+|       3   | dodgerblue|    15  |                  Romania|  ['Poland', 'Latvia', 'Bulgaria', 'Romania', 'Russian Federation', 'Albania', 'Thailand', 'Ukraine', 'Kazakhstan', 'Armenia', 'Georgia', 'Jamaica', 'Kyrgyzstan', 'Moldova, Rep. of', 'Mongolia']|
++-------------------------------------------------------------------------------------------------------------+
+|       4   |       cyan|    17  |                   Panama|  ['Cyprus', 'Chile', 'Bahrain', 'Costa Rica', 'Trinidad and Tobago', 'Panama', 'Malaysia', 'Mauritius', 'Lebanon', 'Jordan', 'Tunisia', 'Fiji', 'Dominican Republic', 'Belize', 'Namibia', 'Botswana', 'Swaziland']|
++-------------------------------------------------------------------------------------------------------------+
+|       5   | lightgreen|    15  |           Czech Republic|  ['Israel', 'Greece', 'Singapore', 'Korea, Rep. of', 'Slovenia', 'Czech Republic', 'Malta', 'Hungary', 'Estonia', 'Lithuania', 'Slovakia', 'Croatia', 'Macedonia, TFYR', 'Belarus', 'Guyana']|
++-------------------------------------------------------------------------------------------------------------+
+|       6   |     yellow|    18  |                Indonesia|  ['Argentina', 'Uruguay', 'Mexico', 'Brazil', 'Colombia', 'Venezuela, RB', 'Peru', 'Philippines', 'Turkey', 'Sri Lanka', 'El Salvador', 'Indonesia', 'Egypt', 'Guatemala', 'South Africa', 'Morocco', 'Bangladesh', 'Nepal']|
++-------------------------------------------------------------------------------------------------------------+
+|       7   | darkorange|    12  |             Saudi Arabia|  ['Kuwait', 'United Arab Emirates', 'Oman', 'Saudi Arabia', 'China', 'Iran, Islamic Rep. of', 'Algeria', 'Syrian Arab Republic', 'India', 'Pakistan', 'Sudan', 'Yemen']|
++-------------------------------------------------------------------------------------------------------------+
+|       8   |        red|     9  |                Nicaragua|  ['Ecuador', 'Paraguay', 'Azerbaijan', 'Cape Verde', 'Viet Nam', 'Nicaragua', 'Honduras', 'Gambia', 'Angola']|
++-------------------------------------------------------------------------------------------------------------+
