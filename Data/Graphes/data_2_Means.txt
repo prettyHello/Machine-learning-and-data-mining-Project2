@@ -1,0 +1,115 @@
+        Tableau_1: Repartition des pays dans 2 cluster 
+
++-------------------------------------------------------------------------------------------------------------+
+|Cluster_ID |couleur    | Taille | Nom Centroide           | liste Pays                                       |
++-------------------------------------------------------------------------------------------------------------+
+
+|       1   |       navy|    65  |                 Slovenia|  ['Norway', 'Iceland', 'Australia', 'Ireland', 'Sweden', 'Canada', 'Japan', 'United States', 'Switzerland', 'Netherlands', 'Finland', 'Luxembourg', 'Belgium', 'Austria', 'Denmark', 'France', 'Italy', 'United Kingdom', 'Spain', 'New Zealand', 'Germany', 'Israel', 'Greece', 'Singapore', 'Korea, Rep. of', 'Slovenia', 'Portugal', 'Cyprus', 'Czech Republic', 'Malta', 'Kuwait', 'Hungary', 'Argentina', 'Poland', 'Bahrain', 'Estonia', 'Lithuania', 'Slovakia', 'Croatia', 'Latvia', 'United Arab Emirates', 'Bulgaria', 'Trinidad and Tobago', 'Romania', 'Malaysia', 'Mauritius', 'Russian Federation', 'Macedonia, TFYR', 'Belarus', 'Albania', 'Thailand', 'Ukraine', 'Kazakhstan', 'Armenia', 'Fiji', 'Georgia', 'Guyana', 'Jamaica', 'Kyrgyzstan', 'Moldova, Rep. of', 'Mongolia', 'South Africa', 'Namibia', 'Botswana', 'Swaziland']|
++-------------------------------------------------------------------------------------------------------------+
+|       2   | lightgreen|    73  |                    Benin|  ['Chile', 'Uruguay', 'Costa Rica', 'Mexico', 'Panama', 'Oman', 'Brazil', 'Colombia', 'Venezuela, RB', 'Saudi Arabia', 'Lebanon', 'China', 'Peru', 'Ecuador', 'Philippines', 'Jordan', 'Tunisia', 'Paraguay', 'Turkey', 'Sri Lanka', 'Dominican Republic', 'Belize', 'Iran, Islamic Rep. of', 'Azerbaijan', 'El Salvador', 'Algeria', 'Cape Verde', 'Syrian Arab Republic', 'Indonesia', 'Viet Nam', 'Egypt', 'Nicaragua', 'Bolivia', 'Honduras', 'Guatemala', 'Morocco', 'Gabon', 'India', 'Cambodia', "Lao People's Dem.  Rep.", 'Pakistan', 'Ghana', 'Bangladesh', 'Nepal', 'Papua New Guinea', 'Sudan', 'Uganda', 'Togo', 'Zimbabwe', 'Madagascar', 'Cameroon', 'Yemen', 'Kenya', 'Gambia', 'Senegal', 'Rwanda', 'Nigeria', 'Guinea', 'Angola', 'Tanzania, U. Rep. of', 'Benin', "Cote d'Ivoire", 'Zambia', 'Malawi', 'Mozambique', 'Burundi', 'Ethiopia', 'Chad', 'Central African Republic', 'Burkina Faso', 'Mali', 'Sierra Leone', 'Niger']|
++-------------------------------------------------------------------------------------------------------------+
+
+
+
+
+
+        Tableau_2: estimation du niveau de proximiter entre les pays en fonction des caractiristique   
+
++-------------------------------------------+
+|indicator_names            | Nombre de pays/cluster ayant des valeur 
+|                           |  de caracteristique proche 
++-------------------------------------------+
+|                           | Cluster_ID    | 
+|-------------------------------------------+ 
+|                           |     1 |     2 |
+#############################################
+| 0              Pop growth |    41 |    17 |
++-------------------------------------------+
+| 1         Pop growth 2004 |    32 |    22 |
++-------------------------------------------+
+| 2             Price index |    57 |    62 |
++-------------------------------------------+
+| 3     Carbon Dioxide 2003 |    26 |    42 |
++-------------------------------------------+
+| 4             Export 1990 |    24 |    27 |
++-------------------------------------------+
+| 5             Export 2004 |    28 |    35 |
++-------------------------------------------+
+| 6               Elec 2003 |     1 |    32 |
++-------------------------------------------+
+| 7                     GDP |    57 |    70 |
++-------------------------------------------+
+| 8                 GDP PPP |    55 |    69 |
++-------------------------------------------+
+| 9                  GDP pc |     2 |    73 |
++-------------------------------------------+
+|10      GDP pc growth rate |    35 |    11 |
++-------------------------------------------+
+|11          Fem Econo Rate |    12 |    15 |
++-------------------------------------------+
+|12          Fem Econo 1990 |    26 |    11 |
++-------------------------------------------+
+|13          Fem Econo 2004 |    26 |    14 |
++-------------------------------------------+
+|14              Health Exp |     3 |    27 |
++-------------------------------------------+
+|15                  Babies |    36 |    10 |
++-------------------------------------------+
+|16           Internet 1990 |     1 |    73 |
++-------------------------------------------+
+|17             Import 1990 |    27 |    43 |
++-------------------------------------------+
+|18             Import 2004 |    20 |    43 |
++-------------------------------------------+
+|19   Tertiary female ratio |    30 |    27 |
++-------------------------------------------+
+|20        Babies immunized |    31 |    28 |
++-------------------------------------------+
+|21   Manufactured Exp 2004 |    10 |    41 |
++-------------------------------------------+
+|22     Foreign invest 2004 |    63 |    72 |
++-------------------------------------------+
+|23           Military 2004 |    44 |    10 |
++-------------------------------------------+
+|24      Public Health 2003 |     5 |    38 |
++-------------------------------------------+
+|25     Private Health 2003 |    36 |    31 |
++-------------------------------------------+
+|26     Primary export 2004 |    13 |    40 |
++-------------------------------------------+
+|27           Public Health |     5 |    38 |
++-------------------------------------------+
+|28         Refugees asylum |    57 |    57 |
++-------------------------------------------+
+|29         Refugees origin |    62 |    58 |
++-------------------------------------------+
+|30            Armed forces |    55 |    63 |
++-------------------------------------------+
+|31        Parliament Women |     7 |    38 |
++-------------------------------------------+
+|32      Female Male income |     8 |    23 |
++-------------------------------------------+
+|33        House women 2006 |    10 |    31 |
++-------------------------------------------+
+|34                Pop 1975 |    58 |    66 |
++-------------------------------------------+
+|35                Pop 2004 |    61 |    65 |
++-------------------------------------------+
+|36                Pop 2015 |    62 |    65 |
++-------------------------------------------+
+|37   Tuberculosis detected |    18 |     3 |
++-------------------------------------------+
+|38 Tuberculosis cured 2004 |     7 |    39 |
++-------------------------------------------+
+|39               Trad fuel |    61 |    65 |
++-------------------------------------------+
+|40      ODA pc donnor 2004 |     1 |    73 |
++-------------------------------------------+
+|41   ODA to least dev 1990 |     8 |    73 |
++-------------------------------------------+
+|42   ODA to least dev 2004 |     8 |    73 |
++-------------------------------------------+
+|43            ODA received |    46 |    30 |
++-------------------------------------------+
+|44         ODA received pc |    38 |    37 |
++-------------------------------------------+
