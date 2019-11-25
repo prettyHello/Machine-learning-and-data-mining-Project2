@@ -67,7 +67,7 @@ def show_annotated_clustering(X, clustering, labels):
     n, d = X.shape
     
     for i in range(n):
-        plt.text(X[i, 0], X[i, 1], labels[i], fontsize=20, bbox=dict(facecolor=RGB_color(clustering[i], nb_clusters), alpha=0.5))
+        plt.text(X[i, 0], X[i, 1], labels[i], fontsize=3, bbox=dict(facecolor=RGB_color(clustering[i], nb_clusters), alpha=0.5))
     
     plt.xlim(np.min(X[:, 0])-1, np.max(X[:, 0])+1)
     plt.ylim(np.min(X[:, 1])-1, np.max(X[:, 1])+1)
