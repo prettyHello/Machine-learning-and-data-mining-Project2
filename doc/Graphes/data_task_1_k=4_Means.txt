@@ -1,0 +1,14 @@
+        Repartition des pays dans 4 cluster 
+
++-------------------------------------------------------------------------------------------------------------+
+|Cluster_ID |couleur    | Taille | Nom Centroide           | liste Pays                                       |
++-------------------------------------------------------------------------------------------------------------+
+
+|       1   |       navy|    35  |                   Latvia|  ['Israel', 'Greece', 'Singapore', 'Korea, Rep. of', 'Slovenia', 'Cyprus', 'Czech Republic', 'Malta', 'Hungary', 'Poland', 'Estonia', 'Lithuania', 'Slovakia', 'Croatia', 'Latvia', 'Bulgaria', 'Romania', 'Malaysia', 'Russian Federation', 'Macedonia, TFYR', 'Belarus', 'Albania', 'Thailand', 'Ukraine', 'Kazakhstan', 'Armenia', 'Georgia', 'Azerbaijan', 'Guyana', 'Jamaica', 'Viet Nam', 'Kyrgyzstan', 'Moldova, Rep. of', 'Mongolia', 'Swaziland']|
++-------------------------------------------------------------------------------------------------------------+
+|       2   | dodgerblue|    40  |                    Niger|  ['Colombia', 'China', 'Ecuador', 'Paraguay', 'Cape Verde', 'Nicaragua', 'Bolivia', 'Gabon', 'Cambodia', "Lao People's Dem.  Rep.", 'Ghana', 'Papua New Guinea', 'Sudan', 'Uganda', 'Togo', 'Zimbabwe', 'Madagascar', 'Cameroon', 'Yemen', 'Kenya', 'Gambia', 'Senegal', 'Rwanda', 'Nigeria', 'Guinea', 'Angola', 'Tanzania, U. Rep. of', 'Benin', "Cote d'Ivoire", 'Zambia', 'Malawi', 'Mozambique', 'Burundi', 'Ethiopia', 'Chad', 'Central African Republic', 'Burkina Faso', 'Mali', 'Sierra Leone', 'Niger']|
++-------------------------------------------------------------------------------------------------------------+
+|       3   | lightgreen|    41  |                  Tunisia|  ['Kuwait', 'Argentina', 'Chile', 'Bahrain', 'Uruguay', 'Costa Rica', 'United Arab Emirates', 'Mexico', 'Trinidad and Tobago', 'Panama', 'Oman', 'Mauritius', 'Brazil', 'Venezuela, RB', 'Saudi Arabia', 'Lebanon', 'Peru', 'Philippines', 'Jordan', 'Tunisia', 'Fiji', 'Turkey', 'Sri Lanka', 'Dominican Republic', 'Belize', 'Iran, Islamic Rep. of', 'El Salvador', 'Algeria', 'Syrian Arab Republic', 'Indonesia', 'Egypt', 'Honduras', 'Guatemala', 'South Africa', 'Morocco', 'Namibia', 'India', 'Botswana', 'Pakistan', 'Bangladesh', 'Nepal']|
++-------------------------------------------------------------------------------------------------------------+
+|       4   | darkorange|    22  |                  Austria|  ['Norway', 'Iceland', 'Australia', 'Ireland', 'Sweden', 'Canada', 'Japan', 'United States', 'Switzerland', 'Netherlands', 'Finland', 'Luxembourg', 'Belgium', 'Austria', 'Denmark', 'France', 'Italy', 'United Kingdom', 'Spain', 'New Zealand', 'Germany', 'Portugal']|
++-------------------------------------------------------------------------------------------------------------+
